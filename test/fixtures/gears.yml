@@ -3,7 +3,7 @@
 one:
   type: 
   serial: MyString
-  purchase_date: 2014-05-28 20:53:29
+  purchase_date: 2014-05-28 21:17:36
   price: 1.5
   notes: MyText
   status: MyString
@@ -13,7 +13,7 @@ one:
 two:
   type: 
   serial: MyString
-  purchase_date: 2014-05-28 20:53:29
+  purchase_date: 2014-05-28 21:17:36
   price: 1.5
   notes: MyText
   status: MyString
