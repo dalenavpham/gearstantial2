@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  serial: MyString
+  purchase_date: 2014-05-28 20:53:29
+  price: 1.5
+  notes: MyText
+  status: MyString
+  manufacturer: MyString
+  name: MyString
+
+two:
+  type: 
+  serial: MyString
+  purchase_date: 2014-05-28 20:53:29
+  price: 1.5
+  notes: MyText
+  status: MyString
+  manufacturer: MyString
+  name: MyString
