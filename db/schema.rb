@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140529042223) do
+ActiveRecord::Schema.define(version: 20140529042432) do
 
   create_table "gears", force: true do |t|
     t.string   "type"
@@ -31,6 +31,14 @@ ActiveRecord::Schema.define(version: 20140529042223) do
     t.integer  "screen_size"
     t.integer  "ram"
     t.integer  "hdd"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "phones", force: true do |t|
+    t.string   "name"
+    t.string   "os"
+    t.integer  "capacity"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @gear.type %>
+</p>
+
+<p>
+  <strong>Serial:</strong>
+  <%= @gear.serial %>
+</p>
+
+<p>
+  <strong>Purchase date:</strong>
+  <%= @gear.purchase_date %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @gear.price %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @gear.notes %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @gear.status %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @gear.manufacturer %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gear.name %>
+</p>
+
+<%= link_to 'Edit', edit_gear_path(@gear) %> |
+<%= link_to 'Back', gears_path %>

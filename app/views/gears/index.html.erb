@@ -1,0 +1,39 @@
+<h1>Listing gears</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Serial</th>
+      <th>Purchase date</th>
+      <th>Price</th>
+      <th>Notes</th>
+      <th>Status</th>
+      <th>Manufacturer</th>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @gears.each do |gear| %>
+      <tr>
+        <td><%= gear.type %></td>
+        <td><%= gear.serial %></td>
+        <td><%= gear.purchase_date %></td>
+        <td><%= gear.price %></td>
+        <td><%= gear.notes %></td>
+        <td><%= gear.status %></td>
+        <td><%= gear.manufacturer %></td>
+        <td><%= gear.name %></td>
+        <td><%= link_to 'Show', gear %></td>
+        <td><%= link_to 'Edit', edit_gear_path(gear) %></td>
+        <td><%= link_to 'Destroy', gear, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Gear', new_gear_path %>
